@@ -1,0 +1,78 @@
+body {
+    background-color:azure;
+    font-family: Aptos, Helvetica,Tahoma;
+}
+
+a {
+    color:#885df1;
+}
+
+form p {
+    font-size: 12px;
+    color: rgba(39,33, 66, 0.6);
+}
+
+
+header p {
+    font-size: 14px;
+    text-align:left;
+}
+
+h1 {
+    text-align:center;
+}
+
+form{
+    background:white;
+    padding: 15px;
+    border-radius:10px;
+    max-width:500px;
+    height:75px;
+    display:block;
+    margin:0 auto;
+    margin-bottom:20px;
+    box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
+}
+
+footer {
+    text-align:center;
+    font-size:12px;
+    margin-top:30px;
+}
+
+.container {
+   margin:120px auto;
+   max-width:600px; 
+}
+
+.displayFacts {
+   font-size:14px;
+   background-color: white;
+   padding:20px;
+   line-height:24px;
+   max-width:500px; 
+   display:block;
+   margin:0 auto;
+   height:100px;
+   border-radius: 10px;
+   box-shadow:0px 20px 60px rgba(65, 50, 100, 0.08); 
+}
+
+#textbox {
+    padding:10px 15px;
+    width: 70%;
+    border-radius:10px;
+    border: solid 1px grey;
+    margin:10px 10px 0 0;
+    font-size:14px;
+}
+
+#submitButton {
+    background-color: #885df1;
+    padding:10px 15px;
+    border-radius:10px;
+    border: solid 1px #885df1;
+
+}
+
+
