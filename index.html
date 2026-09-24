@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.13.2/dist/axios.min.js"></script>
     <link rel="stylesheet" href="src/style.css"/>
     <title>Scientific Facts Generator</title>
 </head>
@@ -11,24 +13,22 @@
     <header>
     <h1>Did you know?</h1>
     <p>Scientific Facts Generator</p>
-</header>
+    </header>
 
     <main>
-        <form>
+        <form id="factsGenerator">
             <input type="text" id ="textbox" placeholder="Enter the topic for the scientific fact" autofocus required autocomplete="off"/>
-            <input type="submit" value="Submit" id="submitButton"/><br />
-            <p>Topics:wildlife, space, strange nature...</p>
+            <input type="submit" value="submit" id="submitButton"/><br />
+            <p>Topics:wildlife, space, ocean...</p>
         </form>
 
-        <div class="displayFacts">
-            //The facts will go here
+        <div class="hidden" id="display"></div>
 
-            <br />
-        </div>
     </main>
     <footer>
         This AI project was coded by <a href="https://github.com/sandye604x/Scientific-facts-Generator" target="_blank">Sandhya Ellis</a> and is <a href="https://github.com/sandye604x" target="_blank">open-sourced on GitHub</a> and is <a href="https://scientific-facts-generator.netlify.app/" target="">hosted on Netlify</a>.
     </footer>
     </div>
 </body>
+<script src="src/index.js"></script>
 </html>
